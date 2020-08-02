@@ -1,0 +1,97 @@
+/* Format for applying styling rules */
+[selector] {
+  [property]: [value];
+}
+
+/* Global Styles go here */
+
+@font-face {
+    font-family: "Pitch";
+    src: url('../fonts/Pitch-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url('../fonts/SpaceMono-Regular.ttf');
+
+}
+
+body {
+  display: block;
+  margin-top: 1em;
+  box-sizing: border-box;
+  padding: 0;
+  background: black;
+  margin-bottom: 20em;
+}
+
+header {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 1em;
+  font-family: "SpaceMono";
+  font-size: 9pt;
+  color: white;
+
+}
+
+.page-container{
+  display: flex;
+flex-wrap: wrap;
+
+}
+
+a{
+  text-decoration: none;
+}
+a {
+  color:white;
+  }
+a:visited {
+  color:white;
+  }
+  a:hover {
+    text-decoration: underline;
+    color:white;
+    }
+a:active {
+  color:white;
+  }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.timer{
+ font-family: "SpaceMono";
+ font-size: 9pt;
+ color: white;
+ margin-block-end: 1em;
+ right: 1em;
+ position: absolute;
+}
+
+.left-column-container{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-top: 1em;
+  padding-inline-start: 1em;
+  font-family: "SpaceMono";
+  font-size: 9pt;
+  width: 25%;
+  position: relative;
+  color: white;
+}
+
+.middle-column-container{
+  width: 50%;
+  position: relative;
+  color: white;
+  padding-inline-start: 1em;
+  font-family: "SpaceMono";
+  font-size: 9pt;
+}

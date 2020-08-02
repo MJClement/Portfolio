@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="initial-scale=1">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('time').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+</head>
+
+  <body onload="startTime()">
+    <div class="timer" id="time"></div>
+    <header>
+      <a href="index-landing.html">Mitchell Clement</a>
+
+    </header>
+
+    <div class="page-container">
+    <div class="left-column-container">
+      <a href="index-tpl.html">The Perry Line</a><br>
+      <a href="index-pp.html">Perry Poster</a><br>
+      <a href="index-dulcie.html">Dulcie Typeface</a><br>
+      <a href="index-goon.html">Goon</a><br>
+      <a href="index-fwp.html">Flatwarming Risograph</a><br>
+      <a href="index-ws.html">Whitecliffe Standard</a><br>
+      <a href="index-aso.html">2001: A Space Odyssey</a><br>
+      <br><br>
+      <a href="index-about.html">About</a><br>
+      <a href="index-contact.html">Contact</a><br>
+    </div>
+
+    <div class="middle-column-container">
+
+
+      <img src="./assets/ASO1.jpg" >
+      <img src="./assets/ASO2.jpg" >
+      <img src="./assets/ASO4.jpg" >
+      <img src="./assets/ASO5.jpg" >
+      <img src="./assets/ASO6.jpg" >
+      <img src="./assets/ASO7.jpg" ><br><br>
+      <img src="./assets/ASO9.jpg" ><br><br><br>
+      <img src="./assets/ASO8.jpg" >
+
+      <br>
+      Concertina <br>
+      2001: A Space Odyssey<br>
+
+
+
+    </div>
+  </div>
+    <!-- Mitchell Clement <br>
+    <br>
+    The Perry Line <br>
+    The Perry Line ~ Poster <br>
+    Dulcie Typeface <br>
+    Goon <br>
+    Flatwarming Risograph <br>
+    Whitecliffe Standard Poster <br> -->
+
+
+
+  </body>
+</html>

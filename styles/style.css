@@ -169,3 +169,24 @@ a:active {
   font-family: "SpaceMono";
   font-size: 9pt;
 }
+
+.projects{
+  padding-left: 15px;
+}
+
+label:hover{
+  text-decoration: underline;
+}
+#cbToggleVisibility{
+  position: absolute;
+  left: -999999999px;
+}
+
+.target{
+  display: none;
+  padding-left: 15px;
+}
+
+#cbToggleVisibility:checked ~ .target{
+  display: block;
+}

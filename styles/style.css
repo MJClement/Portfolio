@@ -17,6 +17,12 @@
 
 }
 
+@font-face {
+    font-family: "IBMPlexMono";
+    src: url('../fonts/IBMPlexMono-Regular.ttf');
+
+}
+
 
 body {
   display: block;
@@ -44,6 +50,12 @@ header {
 flex-wrap: wrap;
 
 }
+
+.imgthirds {
+  float: left;
+max-width: 33%;
+}
+
 
 /* .loadingpage {
       opacity: 1;
@@ -182,10 +194,13 @@ label:hover{
   left: -999999999px;
 }
 
+
 .target{
   display: none;
   padding-left: 15px;
 }
+
+
 
 #cbToggleVisibility:checked ~ .target{
   display: block;

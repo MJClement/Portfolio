@@ -34,7 +34,7 @@ function slideit(){
   step++
  else
   step=0
- setTimeout("slideit()",1500)
+ setTimeout("slideit()",750)
 }
 
 slideit()

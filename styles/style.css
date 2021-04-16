@@ -23,6 +23,34 @@
 
 }
 
+.risoprintlabel:hover {
+  Color:Blue;
+
+}
+
+.HG {
+  width: 50px;
+  height: 15px;
+  background-color: #407060;
+  color: #407060;
+  float: left;
+}
+
+.RD {
+  width: 50px;
+  height: 15px;
+  background-color: #FF665E;
+  color: #FF665E;
+  float: left;
+}
+
+.HunterGreen {
+  color: #407060;
+}
+
+.Red {
+  color: #FF665E;
+}
 
 body {
   display: block;

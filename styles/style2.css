@@ -17,6 +17,12 @@
 
 }
 
+@font-face {
+    font-family: "IBMPlexMono";
+    src: url('../fonts/IBMPlexMono-Regular.ttf');
+
+}
+
 body {
   display: block;
   margin-top: 1em;
@@ -153,10 +159,14 @@ label:hover{
   left: -999999999px;
 }
 
+
+
 .target{
   display: none;
   padding-left: 15px;
 }
+
+
 
 #cbToggleVisibility:checked ~ .target{
   display: block;

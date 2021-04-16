@@ -23,6 +23,12 @@
 
 }
 
+.risoprintlabel:hover {
+  Color:Blue;
+
+}
+
+
 body {
   display: block;
   margin-top: 1em;

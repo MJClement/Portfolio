@@ -23,6 +23,16 @@
 
 }
 
+@font-face {
+    font-family: "OxygenMono";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.25px;
+    src: url('../fonts/OxygenMono-Regular.ttf');
+
+}
+
 .risoprintlabel:hover {
   Color:Blue;
 
@@ -67,7 +77,7 @@ header {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 1em;
-  font-family: "SpaceMono";
+  font-family: "OxygenMono";
   font-size: 9pt;
   color: white;
 
@@ -137,7 +147,7 @@ a:active {
 
 @media screen and (max-width: 450px){
   .timer{
-   font-family: "SpaceMono";
+   font-family: "OxygenMono";
    font-size: 9pt;
    color: white;
    margin-block-end: 1em;
@@ -150,7 +160,7 @@ a:active {
 }
 
 .timer{
- font-family: "SpaceMono";
+ font-family: "OxygenMono";
  font-size: 9pt;
  color: white;
  margin-block-end: 1em;
@@ -165,12 +175,12 @@ a:active {
     margin-top: 1em;
     padding-inline-start: 1em;
     padding-bottom: 3em;
-    font-family: "SpaceMono";
+    font-family: "OxygenMono";
     font-size: 9pt;
     min-width: 80%;
     position: relative;
-    color: blue;
     background-color: black;
+    line-height: 142%;
   }
 }
 
@@ -179,8 +189,9 @@ a:active {
   margin-block-end: 1em;
   margin-top: 1em;
   padding-inline-start: 1em;
-  font-family: "SpaceMono";
+  font-family: "OxygenMono";
   font-size: 9pt;
+  line-height: 142%;
   width: 25%;
   position: relative;
   color: white;
@@ -193,11 +204,12 @@ a:active {
     position: relative;
     background-color: black;
     padding-inline-start: 1em;
-    font-family: "SpaceMono";
+    font-family: "OxygenMono";
     font-size: 9pt;
     display: block;
     margin-left: 5%;
     margin-right: 10%;
+    line-height: 142%;
   }
 }
 
@@ -206,8 +218,9 @@ a:active {
   position: relative;
   color: white;
   padding-inline-start: 1em;
-  font-family: "SpaceMono";
+  font-family: "OxygenMono";
   font-size: 9pt;
+  line-height: 142%;
 }
 
 .projects{

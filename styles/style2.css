@@ -23,11 +23,42 @@
 
 }
 
+@font-face {
+    font-family: "OxygenMono";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/OxygenMono-Regular.ttf');
+
+}
+
 .risoprintlabel:hover {
   Color:Blue;
 
 }
 
+.HG {
+  width: 50px;
+  height: 15px;
+  background-color: #407060;
+  color: #407060;
+  float: left;
+}
+
+.RD {
+  width: 50px;
+  height: 15px;
+  background-color: #FF665E;
+  color: #FF665E;
+  float: left;
+}
+
+.HunterGreen {
+  color: #407060;
+}
+
+.Red {
+  color: #FF665E;
+}
 
 body {
   display: block;
@@ -44,7 +75,7 @@ header {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 1em;
-  font-family: "SpaceMono";
+  font-family: "OxygenMono";
   font-size: 9pt;
   color: white;
 
@@ -78,9 +109,15 @@ img {
     max-height: 100%;
 }
 
+.imgthirds {
+  float: left;
+max-width: 33%;
+}
+
+
 @media screen and (max-width: 450px){
   .timer{
-   font-family: "SpaceMono";
+   font-family: "OxygenMono";
    font-size: 9pt;
    color: white;
    margin-block-end: 1em;
@@ -92,12 +129,29 @@ img {
   }
 }
 .timer{
- font-family: "SpaceMono";
+ font-family: "OxygenMono";
  font-size: 9pt;
  color: white;
  margin-block-end: 1em;
  right: 1em;
  position: fixed;
+}
+
+@media screen and (max-width: 1410px){
+  .left-column-container{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-top: 1em;
+    padding-inline-start: 1em;
+    padding-bottom: 3em;
+    font-family: "OxygenMono";
+    font-size: 9pt;
+    min-width: 80%;
+    width: auto;
+    position: relative;
+    background-color: black;
+    line-height: 142%;
+  }
 }
 
 @media screen and (max-width: 450px){
@@ -107,12 +161,12 @@ img {
     margin-top: 1em;
     padding-inline-start: 1em;
     padding-bottom: 3em;
-    font-family: "SpaceMono";
+    font-family: "OxygenMono";
     font-size: 9pt;
     min-width: 80%;
     position: relative;
-    color: blue;
     background-color: black;
+    line-height: 142%;
   }
 }
 
@@ -121,8 +175,9 @@ img {
   margin-block-end: 1em;
   margin-top: 1em;
   padding-inline-start: 1em;
-  font-family: "SpaceMono";
+  font-family: "OxygenMono";
   font-size: 9pt;
+  line-height: 142%;
   width: 25%;
   position: relative;
   color: white;
@@ -136,11 +191,28 @@ img {
     position: relative;
     background-color: black;
     padding-inline-start: 1em;
-    font-family: "SpaceMono";
+    font-family: "OxygenMono";
     font-size: 9pt;
     display: block;
     margin-left: 5%;
     margin-right: 10%;
+    line-height: 142%;
+  }
+}
+
+@media screen and (max-width: 1410px){
+  .middle-column-container{
+    min-width: 85%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    padding-inline-start: 1em;
+    font-family: "OxygenMono";
+    font-size: 9pt;
+    display: block;
+    margin-left: 5%;
+    margin-right: 10%;
+    line-height: 142%;
   }
 }
 
@@ -149,8 +221,9 @@ img {
   position: relative;
   color: white;
   padding-inline-start: 1em;
-  font-family: "SpaceMono";
+  font-family: "OxygenMono";
   font-size: 9pt;
+  line-height: 142%;
 }
 
 .projects{
